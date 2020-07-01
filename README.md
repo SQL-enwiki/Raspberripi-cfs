@@ -2,7 +2,7 @@
 
 When running Docker Swarm, I get this error with Raspberry PI's:
 
-NanoCPUs can not be set, as your kernel does not support CPU cfs period/quota or the cgroup is not mounted
+> NanoCPUs can not be set, as your kernel does not support CPU cfs period/quota or the cgroup is not mounted
 
 CFS / Control Groups isn't 100% supported in the default kernel. You'll need to build your own.
 
