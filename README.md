@@ -10,10 +10,10 @@ I followed the guide [here](https://www.stephenwagner.com/2020/03/17/how-to-comp
 
 At the "make menuconfig" step, you need to enable cfs in addition to setting a local version
 
-# Select "General setup"
-# Select "Control Group Support"
-# Select every item in this menu, and any submenus (currently only "CPU controller")
-# Exit
+* Select "General setup"
+* Select "Control Group Support"
+* Select every item in this menu, and any submenus (currently only "CPU controller")
+* Exit
 
 Follow the guide from there.
 
